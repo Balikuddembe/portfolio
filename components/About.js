@@ -16,9 +16,14 @@ const About = () => {
                         Now I'm Working with React framework for the front-end and
                         Spring Boot framework for the backend.
                     </p>
-                    <div className=" flex mt-4">
-                        <Link href="">Hire Me</Link>
+                    <div className=" flex mt-4 space-x-4">
+                        <div className= "px-8 py-2 bg-rose-600 text-white border-2 border-rose-600 hover:bg-gray-950 ">
+                        <Link href="" >Hire Me</Link>
+                        </div>
+                        <div className=" border-2 px-4 py-2 border-rose-600 hover:bg-rose-600">
                         <Link href="">Download CV</Link>
+                        </div>
+                        
                     </div>
                 </div>
 
