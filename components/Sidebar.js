@@ -69,6 +69,7 @@ const Sidebar = () => {
                     </div>
 
                 </div>
+                <p className=" text-xs font-light ">© 2023 All Rights Reserved</p>
             </div>
         </div>
     )

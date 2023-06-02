@@ -13,5 +13,5 @@ export default function HomePage() {
         <button className=" px-8 py-2 bg-red-600 ">Hire Me</button>
       </div>
     </div>
-    ); 
+  ); 
 }

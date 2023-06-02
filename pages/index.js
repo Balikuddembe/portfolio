@@ -6,8 +6,8 @@ import { Inter } from 'next/font/google'
 export default function Home() {
   return (
     <main>
-      <HomePage />
-      <Sidebar />
+      <HomePage /> 
+      <Sidebar /> 
       <About />
     </main>
   )
