@@ -49,22 +49,22 @@ const Sidebar = () => {
                 <p className=" pt-8">Follow me</p>
 
                 {/* follow me icons */}
-                <div className=" text-white flex justify-around ">
+                <div className=" text-red-500 flex space-x-2 py-4 ">
                     <div>
                         <Link href='#'>
-                            <AiFillTwitterSquare size={20} />
+                            <AiFillTwitterSquare size={30} className="hover:text-blue-800" />
                         </Link>
                     </div>
                     <div>
 
                         <Link href='#'>
-                            <AiFillGithub size={20} />
+                            <AiFillGithub size={30} className=" hover:text-white"/>
                         </Link>
                     </div>
 
                     <div>
                         <Link href='#'>
-                            <AiFillLinkedin size={20} />
+                            <AiFillLinkedin size={30} className=" hover:text-blue-800" />
                         </Link>
                     </div>
 
