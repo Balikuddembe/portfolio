@@ -12,7 +12,7 @@ const Sidebar = () => {
             </div>
          */}
 
-            <div className=" bg-black text-white h-screen w-64 fixed top-0 left-0 flex flex-col items-center justify-center text-center">
+            <div className=" bg-gray-950 text-white h-screen w-64 fixed top-0 left-0 flex flex-col items-center justify-center text-center">
                 <div>
                     {/* <div className=" font-bold text-4xl">
             <Link href='#'>
