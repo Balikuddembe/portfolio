@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 const About = () => {
     return (
         <section className=" ml-72">
@@ -28,7 +29,7 @@ const About = () => {
                 </div>
 
                 <div className="flex items-center justify-end mt-8">
-          <img src="../public/profile.JPG" alt="Profile Image" className="w-40 h-40 object-cover rounded-full" />
+                <img src="../public/banner.jpg" alt="Profile Image" className=" w-60 h-20"/>
         </div>
 
                 <div className="mt-8">
