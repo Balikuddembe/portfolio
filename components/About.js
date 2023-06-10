@@ -4,7 +4,7 @@ import {AiOutlinePhone, AiOutlineMail, HiOutlineMail} from "react-icons/ai"
 
 const About = () => {
     return (
-        <section className=" bg-black ">
+        <section className=" bg-black">
             <div className="ml-72">
                 <div class=" text-white pt-24 flex font-semibold space-x-2">
                     <span className=" text-rose-700 text-3xl">|</span><h2 className=" text-3xl">About</h2>
@@ -29,13 +29,13 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-end">
-                    <img src="../public/banner.jpg" alt="Profile Image" className=" w-60 h-20" />
-                </div>
+                {/* <div className="flex items-center justify-end">
+                    <img src="../profile.jpg" alt="Profile Image" className=" w-60 h-80" />
+                </div> */}
             
 
             <div className=" ml-1 flex space-x-6 text-center">
-                <div className="mt-8  bg-gray-700 border w-64 py-4">
+                <div className="mt-4  bg-gray-700 w-64 py-4 mb-16 outline hover:outline-rose-700 outline-1">
                     <div className=" pl-28 font-bold pb-2">
                     <AiOutlinePhone size={25} className=" text-rose-700"/>
                     </div>
@@ -44,7 +44,7 @@ const About = () => {
                     <p>+256 777 923 074</p>
                 </div>
 
-                <div className="mt-8 bg-gray-700 w-64 py-4">
+                <div className="mt-4 bg-gray-700 w-64 py-4 mb-16 outline hover:outline-rose-700 outline-1">
                     <div className=" pl-28 pb-1">
                     <AiOutlineMail size={25} className="text-rose-700"/>
                     </div>
@@ -54,10 +54,7 @@ const About = () => {
                 </div>
             </div>
             </div>
-
-
         </section>
-
     )
 }
 
