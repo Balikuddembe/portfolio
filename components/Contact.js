@@ -12,7 +12,7 @@ const Contact = () => {
                     <h2 className='text-3xl'>Contact</h2>
                 </div>
                 <div className=' mt-8 flex'>
-                    <div className=' bg-slate-900 p-7 w-1/2'>
+                    <div className=' bg-zinc-950 p-7 w-1/2'>
                         <h2 className='text-2xl font-bold text-white'>Get in Touch</h2>
                         <p className='mt-4 max-w-sm text-slate-400'>
                             If you have an exciting application you're eager to develop, a specific feature

@@ -27,22 +27,22 @@ const About = () => {
         </div>
 
         <div className="ml-1 flex space-x-6 text-center">
-          <div className="mt-4 bg-gray-700 w-72 py-4 mb-16 outline hover:outline-rose-700 outline-1">
+          <div className="mt-4 bg-zinc-900 w-72 py-4 mb-16 outline hover:outline-rose-700 outline-1">
             <div className=" pl-32 font-bold pb-2">
               <AiOutlinePhone size={25} className="text-rose-700" />
             </div>
 
             <p className="pb-1 font-bold text-white">Phone</p>
-            <p>+256 777 923 074</p>
+            <p className=" text-slate-400">+256 777 923 074</p>
           </div>
 
-          <div className="mt-4 bg-gray-700 w-72 py-4 mb-16 outline hover:outline-rose-700 outline-1">
+          <div className="mt-4 bg-zinc-900 w-72 py-4 mb-16 outline hover:outline-rose-700 outline-1">
             <div className="pl-32 pb-2">
               <AiOutlineMail size={25} className="text-rose-700" />
             </div>
 
             <p className="pb-1 font-bold text-white">Email</p>
-            <p>balixemma@gmail.com</p>
+            <p className=" text-slate-400">balixemma@gmail.com</p>
           </div>
         </div>
       </div>
