@@ -2,7 +2,7 @@ import React from "react";
  
 export default function HomePage() {
   return (
-    <div className="flex items-center justify-center h-screen text-center custom-img">
+    <div className="flex items-center justify-center h-screen text-center custom-img" id="home">
       {/* Overlay */}
       <div className=" absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-1" />
 

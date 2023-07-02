@@ -5,7 +5,7 @@ import { MdLocationOn } from 'react-icons/md'
 
 const Contact = () => {
     return (
-        <section className=' bg-black pb-40'>
+        <section className=' bg-black pb-40' id='contact'>
             <div className=' ml-72'>
                 <div className=' text-white pt-24 flex font-semibold space-x-2'>
                     <span className="text-rose-700 text-3xl">|</span>

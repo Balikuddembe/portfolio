@@ -1,10 +1,11 @@
 import React from "react";
-import Link from "next/link";
+import Link from "next/link.js";
+import Image from "next/image.js";
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 
 const About = () => {
   return (
-    <section className="bg-black flex">
+    <section className="bg-black flex" id="about">
       <div className="ml-72">
         <div className="text-white pt-24 flex font-semibold space-x-2">
           <span className="text-rose-700 text-3xl">|</span>
@@ -48,7 +49,7 @@ const About = () => {
       </div>
 
       <div className="flex items-center w-1/3 justify-end">
-        <img src="../profile.jpg" alt="Profile Image" className="ml-auto w-80 h-96 mt-20" />
+        <Image src="/profile.jpg" alt="Profile Image" width={500} height={300} className="ml-auto w-80 h-96 mt-20" />
       </div>
     </section>
   );

@@ -1,48 +1,37 @@
 import React from "react";
-import Link from "next/link";
+import { Button, Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { AiFillTwitterSquare, AiFillGithub, AiFillLinkedin } from "react-icons/ai"
 
 const Sidebar = () => {
     return (
         <div>
-            {/* <div className=" font-bold text-4xl h-16 top-0 left-0 flex flex-col justify-center">
-            <Link href='#'>
-                <h1>Coder<span className="text-6xl text-red-600">.</span></h1>
-            </Link>
-            </div>
-         */}
-
             <div className=" bg-gray-950 text-white h-screen w-64 fixed top-0 left-0 flex flex-col items-center justify-center text-center">
                 <div>
-                    {/* <div className=" font-bold text-4xl">
-            <Link href='#'>
-                <h1>Coder<span className="text-6xl text-red-600">.</span></h1>
-            </Link>
-            </div> */}
 
                     <ul>
                         <li>
-                            <Link href='#'>Home</Link>
+                            <button><ScrollLink to="home">Home</ScrollLink></button>
+
                         </li>
 
                         <li className="py-4">
-                            <Link href='/about'>About</Link>
+                           <button><ScrollLink to='about'>About</ScrollLink></button>
                         </li>
 
                         <li>
-                            <Link href='/services'>Services</Link>
+                            <button><ScrollLink to='services'>Services</ScrollLink></button>
                         </li>
 
                         <li className="py-4">
-                            <Link href='/portfolio'>Portfolio</Link>
+                           <button><ScrollLink to='portfolio'>Portfolio</ScrollLink></button>
                         </li>
 
                         <li>
-                            <Link href='/'>News</Link>
+                        <button><ScrollLink to='news'>News</ScrollLink></button>
                         </li>
 
                         <li className="py-4">
-                            <Link href='/contact'>Contact</Link>
+                        <button><ScrollLink to='contact'>Contact</ScrollLink></button>
                         </li>
                     </ul>
                 </div>
@@ -51,21 +40,21 @@ const Sidebar = () => {
                 {/* follow me icons */}
                 <div className=" text-rose-600 flex space-x-2 py-4 ">
                     <div>
-                        <Link href='#'>
+                        <a href='https://twitter.com/BalixEmma'>
                             <AiFillTwitterSquare size={30} className="hover:text-blue-800" />
-                        </Link>
+                        </a>
                     </div>
                     <div>
 
-                        <Link href='#'>
+                        <a href='https://github.com/Balikuddembe'>
                             <AiFillGithub size={30} className=" hover:text-white"/>
-                        </Link>
+                        </a>
                     </div>
 
                     <div>
-                        <Link href='#'>
+                        <a href='https://www.linkedin.com/in/emmanuelbalikuddembe/'>
                             <AiFillLinkedin size={30} className=" hover:text-blue-800" />
-                        </Link>
+                        </a>
                     </div>
 
                 </div>
