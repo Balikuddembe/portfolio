@@ -4,14 +4,12 @@ import { AiFillTwitterSquare, AiFillGithub, AiFillLinkedin } from "react-icons/a
 
 const Sidebar = () => {
     return (
-        <div>
-            <div className=" bg-gray-950 text-white h-screen w-64 fixed top-0 left-0 flex flex-col items-center justify-center text-center">
+        <div className=" m-72">
+            <div className=" bg-zinc-950 text-white h-screen w-64 fixed top-0 left-0 flex flex-col items-center justify-center text-center">
                 <div>
-
                     <ul>
                         <li>
                             <button><ScrollLink to="home">Home</ScrollLink></button>
-
                         </li>
 
                         <li className="py-4">
@@ -56,7 +54,6 @@ const Sidebar = () => {
                             <AiFillLinkedin size={30} className=" hover:text-blue-800" />
                         </a>
                     </div>
-
                 </div>
                 <p className=" text-xs font-light ">© 2023 All Rights Reserved</p>
             </div>
@@ -64,3 +61,4 @@ const Sidebar = () => {
     )
 }
 export default Sidebar;
+

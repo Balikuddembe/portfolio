@@ -43,9 +43,9 @@ const Contact = () => {
                     </div>
 
                     <div className=' ml-10 '>
-                        <input type='text' placeholder='Name' className=' placeholder-shown: text-zinc-600 border border-zinc-900 pl-2 mb-3 block w-96 h-10 bg-black' />
-                        <input type='email' placeholder='Email' className='placeholder-shown: text-zinc-600 pl-2 mb-3 block w-96 h-10 border border-zinc-900 bg-black' />
-                        <textarea placeholder='Message' className='placeholder-shown: text-zinc-600 pl-2 mb-3 block w-96 h-32 resize-none border border-zinc-900 bg-black'/>
+                        <input type='text' placeholder='Name' className=' placeholder-zinc-800 text-zinc-600 border border-zinc-900 pl-2 mb-3 block w-96 h-10 bg-black' />
+                        <input type='email' placeholder='Email' className='placeholder-zinc-800 text-zinc-600 pl-2 mb-3 block w-96 h-10 border border-zinc-900 bg-black' />
+                        <textarea placeholder='Message' className='placeholder-zinc-800 text-zinc-600 pl-2 mb-3 block w-96 h-32 resize-none border border-zinc-900 bg-black'/>
                         <button className=' text-white bg-rose-600 px-4 py-4 mt-4 hover:bg-black border-2 border-rose-600'>Send Message</button>
                     </div>
 
