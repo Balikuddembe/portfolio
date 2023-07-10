@@ -1,5 +1,7 @@
 import React from 'react';
 import PortfolioCard from './PortfolioCard';
+import CardDetails from './CardDetails';
+import { Route, Switch } from 'react-router-dom';
 
 const Portfolio = () => {
     const portfolioItems = [
@@ -45,6 +47,7 @@ const Portfolio = () => {
                     <h2 className='text-3xl'>Portfolio</h2>
                 </div>
                 <p className=' text-white py-4'>Some of my best works</p>
+                
                 <div className="grid grid-cols-1 mt-8 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {portfolioItems.map((item, index) => (
                         <PortfolioCard key={index} item={item} />

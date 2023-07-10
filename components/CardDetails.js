@@ -1,6 +1,13 @@
+import React from "react";
+import { useParams } from "react-router-dom";
+
 const CardDetails = ({ match }) => {
-    const { params } = match;
-    const selectedCard = portfolioItems.find(item => item.title.toLowerCase().replace(/ /g, '-') === params.id);
+    const { id } = useParams();
+
+    const selectedCard = portfolioItems.find(
+        item => item.title.toLowerCase().replace(/ /g, '-') === id
+      );
+      
   
     if (!selectedCard) {
       return <div>Card not found</div>;
@@ -9,7 +16,7 @@ const CardDetails = ({ match }) => {
     const { image, title, content, demoLink, sourceCodeLink } = selectedCard;
   
     return (
-      <div>
+      <div id="carddetails">
         <img src={image} alt={title} />
         <h2>{title}</h2>
         <p>{content}</p>
